@@ -39,7 +39,5 @@ models:
   jaffle_shop_analysis:
     # Applies to all files under models/example/
     staging:
-      jaffle_shop:
-        +materialized: view
-      stripe:
-        +materialized: table
+      +materialized: view
+      
